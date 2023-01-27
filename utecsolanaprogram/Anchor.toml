@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+utecsolanaprogram = "Cz8gb1LckS8MEELA66Kns2jpL8NK6wv1smn1bd6arGBQ"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/zytrust/.config/solana/id.json"
+
+[scripts]
+test = "node tests/utecsolanaprogram.js"

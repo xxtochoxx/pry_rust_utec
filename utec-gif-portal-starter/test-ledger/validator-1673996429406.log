@@ -1,0 +1,17 @@
+[0m[38;5;8m[[0m2023-01-17T23:00:29.407130000Z [0m[32mINFO [0m solana_test_validator[0m[38;5;8m][0m solana-validator 1.14.12 (src:979792ba; feat:4145199441)
+[0m[38;5;8m[[0m2023-01-17T23:00:29.407155000Z [0m[32mINFO [0m solana_test_validator[0m[38;5;8m][0m Starting validator with: ArgsOs {
+        inner: [
+            "solana-test-validator",
+        ],
+    }
+[0m[38;5;8m[[0m2023-01-17T23:00:29.407211000Z [0m[33mWARN [0m solana_perf[0m[38;5;8m][0m CUDA is disabled
+[0m[38;5;8m[[0m2023-01-17T23:00:29.409744000Z [0m[32mINFO [0m solana_faucet::faucet[0m[38;5;8m][0m Faucet started. Listening on: 0.0.0.0:9900
+[0m[38;5;8m[[0m2023-01-17T23:00:29.409758000Z [0m[32mINFO [0m solana_faucet::faucet[0m[38;5;8m][0m Faucet account address: 2hzFqsMdoJgdS2hypQLRRYVdm15WbtYjkLDteAGoikDh
+[0m[38;5;8m[[0m2023-01-17T23:00:29.412061000Z [0m[1m[31mERROR[0m solana_ledger::blockstore[0m[38;5;8m][0m Unable to increase the maximum open file descriptor limit to 1000000 from 65535
+[0m[38;5;8m[[0m2023-01-17T23:00:29.412072000Z [0m[1m[31mERROR[0m solana_ledger::blockstore[0m[38;5;8m][0m On mac OS you may need to run |sudo launchctl limit maxfiles 1000000 1000000| first
+[0m[38;5;8m[[0m2023-01-17T23:00:29.412077000Z [0m[32mINFO [0m solana_ledger::blockstore[0m[38;5;8m][0m Maximum open file descriptors: 65535
+[0m[38;5;8m[[0m2023-01-17T23:00:29.412130000Z [0m[32mINFO [0m solana_ledger::blockstore[0m[38;5;8m][0m Opening database at "test-ledger/rocksdb"
+[0m[38;5;8m[[0m2023-01-17T23:00:29.503744000Z [0m[32mINFO [0m solana_ledger::blockstore[0m[38;5;8m][0m "test-ledger/rocksdb" open took 91ms
+[0m[38;5;8m[[0m2023-01-17T23:00:29.505618000Z [0m[32mINFO [0m solana_metrics::metrics[0m[38;5;8m][0m metrics disabled: SOLANA_METRICS_CONFIG: environment variable not found
+[0m[38;5;8m[[0m2023-01-17T23:00:29.505649000Z [0m[32mINFO [0m solana_metrics::metrics[0m[38;5;8m][0m datapoint: shred_insert_is_full total_time_ms=0i slot=0i last_index=3i num_repaired=0i num_recovered=0i
+[0m[38;5;8m[[0m2023-01-17T23:00:29.550937000Z [0m[32mINFO [0m solana_runtime::hardened_unpack[0m[38;5;8m][0m Extracting "test-ledger/genesis.tar.bz2"...
